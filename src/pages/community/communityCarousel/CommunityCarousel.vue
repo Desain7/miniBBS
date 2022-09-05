@@ -31,7 +31,7 @@ let activeTab = ref('1')
 let tabItems: Array<tabItem> = [
     {
         name: 'PC游戏',
-        icon: './imgs/pcyx',
+        icon: "url('./imgs/pcyx')",
     },
     {
         name: '主机游戏',
